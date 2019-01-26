@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "test",
+    "password": "123456",
+    "database": "xph",
+    "host": "115.28.187.9",
+    # "database": "xph_new",
+    # "host": "120.25.235.236",
+    # "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "test",
+    "password": "123456",
+    "database": "xph",
+    "host": "115.28.187.9",
+    # "database": "xph_new",
+    # "host": "120.25.235.236",
+    # "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "test",
+    "password": "123456",
+    "database": "xph",
+    "host": "115.28.187.9",
+    # "database": "xph_new",
+    # "host": "120.25.235.236",
+    # "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
