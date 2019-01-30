@@ -11,4 +11,5 @@ module.exports = app => {
   router.resources('user', '/user', controller.user);
   router.resources('historyData', '/historydata', controller.historyData);
   router.resources('userDeviceList', '/devicelist', controller.userDeviceList);
+  router.resources('standard', '/standard', controller.standard);
 };
