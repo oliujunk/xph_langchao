@@ -11,13 +11,14 @@ module.exports = appInfo => {
 
   config.sequelize = {
     dialect: 'mysql',
-    host: '115.28.187.9',
+    // host: '115.28.187.9',
     // host: '120.25.235.236',
-    // host: '127.0.0.1',
+    host: '127.0.0.1',
     port: 3306,
     database: 'xph',
     // database: 'xph_new',
-    username: 'test',
+    // username: 'test',
+    username: 'root',
     password: '123456',
   };
 
