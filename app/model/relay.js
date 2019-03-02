@@ -24,6 +24,7 @@ module.exports = app => {
       where: {
         facId: deviceId,
       },
+      order: [[ 'jId' ]],
     });
   };
 
