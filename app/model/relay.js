@@ -8,7 +8,7 @@ module.exports = app => {
     {
       idm: { type: INTEGER, primaryKey: true, autoIncrement: true },
       facId: STRING(255),
-      jId: STRING(255),
+      jId: INTEGER(2),
       jName: STRING(255),
       jType: STRING(255),
     },
