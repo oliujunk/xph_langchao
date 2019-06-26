@@ -11,6 +11,10 @@ module.exports = app => {
       EleNum: STRING(255),
       ElePro: STRING(255),
       FacName: STRING(255),
+      WeleT: STRING(255),
+      jgsj: STRING(255),
+      wcsj: STRING(255),
+      dqsj: STRING(255),
     },
     {
       tableName: 'xhp_equ_info',
