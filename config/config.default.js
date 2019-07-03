@@ -13,13 +13,14 @@ module.exports = appInfo => {
     dialect: 'mysql',
     // host: '115.28.187.9',
     // host: '120.25.235.236',
-    host: '127.0.0.1',
+    // host: '127.0.0.1',
+    host: '114.116.114.15',
     // host: '192.168.1.135',
-    port: 3306,
+    port: 3309,
     database: 'xph',
     // database: 'xph_new',
     // username: 'test',
-    username: 'root',
+    username: 'xph',
     password: '123456',
   };
 
