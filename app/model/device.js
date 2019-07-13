@@ -15,6 +15,7 @@ module.exports = app => {
       jgsj: STRING(255),
       wcsj: STRING(255),
       dqsj: STRING(255),
+      Tel: STRING(255),
     },
     {
       tableName: 'xhp_equ_info',
