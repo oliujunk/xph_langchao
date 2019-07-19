@@ -6,6 +6,8 @@
 module.exports = app => {
   const { router, controller } = app;
   router.resources('data', '/data', controller.data);
+  router.resources('video', '/vedio', controller.video);
+  router.resources('video', '/video', controller.video);
   router.resources('device', '/device', controller.device);
   router.resources('element', '/element', controller.element);
   router.resources('user', '/user', controller.user);
